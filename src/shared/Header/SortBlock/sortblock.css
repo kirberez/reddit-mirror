@@ -1,0 +1,33 @@
+.sortBlock {
+  background-color: var(--white);
+  padding: 11px 20px;
+  border-radius: 7px;
+  margin: 0 0 20px;
+}
+
+@media all and (min-width: 1024px) {
+  .sortBlock {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+.itemContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0 10px 20px;
+  background-color: #fff;
+}
+
+.itemContainer:not(:last-child) {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.itemIcon {
+  position: absolute;
+  left: 0;
+}

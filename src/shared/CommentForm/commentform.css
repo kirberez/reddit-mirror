@@ -1,0 +1,102 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: none;
+}
+
+.input {
+  height: 89px;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 3px 3px 0px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+  resize: none;
+}
+
+.input:focus-visible {
+  outline: none;
+}
+
+/*.input::placeholder {*/
+/*  color: var(--orange);*/
+/*}*/
+
+.input[aria-invalid] {
+  border-color: red;
+}
+
+.button {
+  width: 220px;
+  height: 50px;
+  background: #CC6633;
+  border-radius: 0px 0px 3px 0px;
+  align-self: flex-end;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.button[aria-disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.formFooterWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actionButtons {
+  width: 100%;
+  display: flex;
+  column-gap: 26px;
+  padding: 15px 19px;
+  align-items: center;
+
+  border-radius: 0 0 0 3px;
+  /* background: var(--greyE5); */
+  background: #D9D9D9;
+}
+
+
+
+
+
+
+
+
+
+/* .commentsButton {
+  display: flex;
+  align-items: normal;
+}
+.commentsButton * {
+  color: var(--greyC4);
+}
+
+.commentsNumber {
+  padding: 0 0 0 6px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+@media all and (min-width: 1024px) {
+  .commentsButton {
+    display: none;
+  }
+} */
